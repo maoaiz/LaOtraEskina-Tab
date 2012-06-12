@@ -1,0 +1,163 @@
+@charset "utf-8";
+body{
+background: #fff; font-size:80%; font-family: Arial, Helvetica, Verdana, sans-serif;
+color:#000; text-align: center;text-shadow: #555 2px 2px 3px;
+}
+.main{/*
+border:solid thin gray;*/
+margin:0 auto;
+width:520px;
+}
+.grande{
+overflow:hidden;/*
+border:solid thin yellow;*/
+}
+.menubox{
+float:left;
+margin-right:10px;/*
+border:solid thin gray;*/
+min-height:280px;
+}
+.contenido{/*
+border:solid thin blue;*/
+padding:10px 10px 0 20px;
+min-height: 611px;
+}
+
+div, a, img { behavior: url(iepngfix.htc) }
+
+.sharer{
+}
+
+/* share */
+.clearfix:after { content:"."; display:block; clear:both; visibility:hidden; line-height:0; height:0 }
+.clearfix { display:inline-block }
+html[xmlns] .clearfix { display:block }
+* html .clearfix { height:1% }
+
+.share {  width: 100%; color: #000; padding-bottom:-10;
+position: relative;
+top:140px;
+left:0px;
+}
+.share ul { float: left; padding: 5px;  
+list-style-type: none;}
+.share ul li { font-size: 11px; padding-top:0 }
+.share a { display: block; width: 16px; height: 16px; margin-right: 4px; background: url(http://mauricioaizaga.com/LaOtraEskina/img/icons.png) no-repeat 0 0 }
+.share a.myspace { background-position: 0 0 }
+.share a.stumble { background-position: 0 -16px }
+.share a.twitter { background-position: 0 -32px }
+.share a.delicious { background-position: 0 -48px }
+.share a.tumbler { background-position: 0 -64px }
+.share a.facebook { background-position: 0 -80px }
+
+.home #menu{
+		margin-top:47px;/*Distancia del index para el menu*/
+}
+
+#menu {
+		font-family:Arial;
+		font-size:11px;
+		position:relative;
+		left:-10px;/*
+		margin:0;*/
+		height:25px;
+		width:110px;/*ancho del boton del menol*/
+	}
+	
+	#menu ul {
+		/* remove list style */
+		list-style:none;
+		padding:0;
+		margin:0;
+		height:45px;
+		/* set the layer position */
+		position:relative;
+		z-index:5;
+	}
+	
+		#menu li {
+			/* set the styles */
+			background: url(http://mauricioaizaga.com/LaOtraEskina/img/hover.png) no-repeat 0 0;
+			padding:5px;
+			margin:3px;
+			height:15px;
+			cursor:pointer;/*
+			border:1px solid #ccc;*/
+			opacity: 0.9;  
+			-moz-opacity: 0.9;
+			filter: alpha(opacity=90);
+		}
+		
+		#menu li.hover {
+			/* on hover, change it to this image 
+			background-image:url(http://mauricioaizaga.com/LaOtraEskina/img/nomal.png) !important;
+			background-color:#f00;*/
+			opacity: 1.2;  
+			-moz-opacity: 1.2;
+			filter: alpha(opacity=120);
+		}
+		
+		#menu li a {
+			text-decoration:none;	text-shadow: #555 2px 2px 3px;
+
+			color:#fff;
+			display:block;
+			font-size: 12px;
+			line-height: 12px;
+			font-weight: bold;
+			text-transform:uppercase;
+			padding-left:8px;
+		}
+		#menu li a.hover {
+			color:#f00;
+			opacity: 0.9;  
+			-moz-opacity: 0.9;
+			filter: alpha(opacity=90);
+		}
+	
+	
+	#menu .block {
+		/* allow javascript to move the block */
+		position:absolute;
+		top:10;
+		
+		/* set the left position */
+		left:78px;	
+		
+		/* display above the #menu */
+		z-index:10;
+		
+		/* the image and the size */
+		background:transparent url(http://mauricioaizaga.com/LaOtraEskina/img/k2.png) no-repeat top right;
+		width:24px;
+		height:27px;
+		padding:4px;
+		cursor:pointer;
+	}
+	
+	/* fast png fix for ie6 */
+	* html .png{
+		position:relative;
+		behavior: expression((this.runtimeStyle.behavior="none")&&(this.pngSet?this.pngSet=true:(this.nodeName == "IMG" && this.src.toLowerCase().indexOf('.png')>-1?(this.runtimeStyle.backgroundImage = "none",
+this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.src + "', sizingMethod='image')",
+this.src = "transparent.gif"):(this.origBg = this.origBg? this.origBg :this.currentStyle.backgroundImage.toString().replace('url("','').replace('")',''),
+this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.origBg + "', sizingMethod='crop')",
+this.runtimeStyle.backgroundImage = "none")),this.pngSet=true));
+	}
+	
+	
+	table{
+		text-shadow: none;
+	}
+	table * a{
+	text-decoration:none;
+	color:blue;
+	}
+	
+	.reproductor{
+	position:absolute;
+	left:685px;
+	top:10px;
+	}
+	

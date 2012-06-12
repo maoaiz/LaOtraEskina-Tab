@@ -1,0 +1,72 @@
+@charset "utf-8";
+*{ margin:0; padding:0; list-style:none }
+body {/*
+background: #fff; font-size:80%; font-family: Arial, Helvetica, Verdana, sans-serif;
+color:#fff; text-align: center*/
+ }
+h1 { line-height:0; font-size:0; height:0; text-indent:-9000px }
+h2, h3 { font-weight: normal }
+a { text-decoration:none; color:#fff }
+a:hover { text-decoration:none }
+img { border:0; margin: 0 }
+:focus { outline:0 }
+fieldset,
+legend { border:0 }
+form { display:inline }
+
+.clearfix:after { content:"."; display:block; clear:both; visibility:hidden; line-height:0; height:0 }
+.clearfix { display:inline-block }
+html[xmlns] .clearfix { display:block }
+* html .clearfix { height:1% }
+
+div, a { behavior: url(css/iepngfix.htc) }
+
+/* wrapper */
+.wrapper { position: relative; width: 520px; margin: 0 auto 30px; font-family: Arial, Helvetica, Verdana, sans-serif; text-align: left }
+.wrapper h2 { font-size: 20px; font-weight: bold; color: #fff; text-transform: uppercase;padding-left: 5px }
+.wrapper span.estreno { position: absolute; left: 400px; top: 50px; display: block; color: #fff; font-size: 13px; width: 200px }
+.wrapper .content { text-align: justify }
+
+/* menu */
+.wrapper div.menu { position: absolute; top: 35px; left: 0; width: 111px; margin: 0; color: #fff; padding: 0 }
+.wrapper div.menu .moviecity { display: block; background: url('http://www.moviecity.com/kdabra2/imgs/moviecity.gif') 0 0 no-repeat; width: 105px; height: 31px; margin: 15px 10px; text-indent: -9000px }
+.wrapper div.menu ul { position: relative; float: left }
+.wrapper div.menu ul li { position: relative; clear: both; height: 29px }
+.wrapper div.menu ul li a { position: relative; font-size: 11px; line-height: 12px; font-weight: bold; display: block; color: #fff; width: 101px; height: 12px; text-transform: uppercase; padding: 7px 10px }
+.wrapper div.menu ul li a.big { height: 24px; padding: 1px 10px }
+.wrapper div.menu ul li div.bg_off,
+.wrapper div.menu ul li div.bg_on { position: absolute; top: 0; left: 0; height: 26px; background: url('http://www.moviecity.com/kdabra2/imgs/menubase.png') 0 100% }
+.wrapper div.menu ul li div.bg_off { width: 0 }
+.wrapper div.menu ul li div.bg_on { width: 111px; background-position: 100% 100% }
+.wrapper div.menu ul li a:hover,
+.wrapper div.menu ul li.on a { color: #000 }
+.wrapper div.menu ul li.on div.bg_off { width: 111px }
+.wrapper div.menu ul li.on div.bg_on { width: 0 } 
+
+/* analytics */
+.analytics {display:none;}
+
+/* share */
+.share { background: #fff; width: 100%; color: #000 }
+.share ul { float: right; padding: 5px  }
+.share ul li { float: left; font-size: 11px }
+.share a { display: block; width: 16px; height: 16px; margin-right: 4px; background: url(http://www.moviecity.com/spartacus/imgs/icons.jpg) no-repeat 0 0 }
+.share a.myspace { background-position: 0 0 }
+.share a.stumble { background-position: 0 -16px }
+.share a.twitter { background-position: 0 -32px }
+.share a.delicious { background-position: 0 -48px }
+.share a.tumbler { background-position: 0 -64px }
+.share a.facebook { background-position: 0 -80px }
+
+/* footer */
+.footer { display: block; float: left; background: url(http://www.moviecity.com/kdabra2/imgs/footer_izq.jpg) no-repeat 0 0; width: 262px; height: 95px; text-indent: -9000px }
+.footer_mcp { display: block; float: left; background: url(http://www.moviecity.com/kdabra2/imgs/footer_der2.jpg) no-repeat 0 0; width: 258px; height: 95px; text-indent: -9000px; cursor: default }
+
+.legal { display: block; float: left; background: url(http://www.moviecity.com/kdabra2/imgs/legal.jpg) no-repeat 0 0; width: 360px; height: 23px; margin: 15px 0; text-indent: -9000px }
+a.comparte {background: url(http://www.moviecity.com/kdabra2/imgs/comparte.jpg); width: 76px; height: 20px; display: block; float: right; margin: 15px 5px }
+a.tweet {background: url(http://www.moviecity.com/kdabra2/imgs/tweet.jpg); width: 55px; height: 20px; display: block; float: right; margin-top: 15px }
+
+
+/* twitter feed */
+#tweets {display: none; padding-top: 10px;}
+#comentarios { width: 520px; margin: 0 auto }

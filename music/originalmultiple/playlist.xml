@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<playlist>
+	<item>
+		<title>Solo y Perdido</title>
+		<artist>La Otra Eskina</artist>
+		<path>music/songs/La_Otra_Eskina__Solo_y_Perdido.mp3</path>
+	</item>
+	<item>
+		<title>Contigo</title>
+		<artist>La Otra Eskina</artist>
+		<path>music/songs/La_Otra_Eskina__Contigo.mp3</path>
+	</item>
+	<item>
+		<title>Miedos</title>
+		<artist>La Otra Eskina</artist>
+		<path>music/songs/La_Otra_Eskina__Miedos.mp3</path>
+	</item>
+	<item>
+		<title>La Pena</title>
+		<artist>La Otra Eskina</artist>
+		<path>music/songs/La_Otra_Eskina__La_Pena.mp3</path>
+	</item>
+	<item>
+		<title>Cancion Para Silvana</title>
+		<artist>La Otra Eskina</artist>
+		<path>music/songs/La_Otra_Eskina__Cancion_Para_Silvana.mp3</path>
+	</item>
+	<item>
+		<title>Guascatronik 2</title>
+		<artist>La Otra Eskina</artist>
+		<path>music/songs/Guascatronik_2.mp3</path>
+	</item>
+	<item>
+		<title>Guascatronik 3</title>
+		<artist>La Otra Eskina</artist>
+		<path>music/songs/Guaskatronik_3.mp3</path>
+	</item>
+	<item>
+		<title>Guascatronik 1</title>
+		<artist>La Otra Eskina</artist>
+		<path>music/songs/Guascatronik_1.mp3</path>
+	</item>
+	<item>
+		<title>Yo lo sé</title>
+		<artist>La Otra Eskina</artist>
+		<path>music/songs/La_Otra_Eskina__Yo_Lo_Se.mp3</path>
+	</item>
+	<item>
+		<title>Ay Amor</title>
+		<artist>La Otra Eskina</artist>
+		<path>music/songs/La_Otra_Eskina__Ay_Amor.mp3</path>
+	</item>
+	<item>
+		<title>Miel y sal</title>
+		<artist>La Otra Eskina</artist>
+		<path>music/songs/La_Otra_Eskina__Miel_y_Sal.mp3</path>
+	</item>
+	<item>
+		<title>Estas aquí</title>
+		<artist>La Otra Eskina</artist>
+		<path>music/songs/La_Otra_Eskina__Estas_Aqui.mp3</path>
+	</item>
+	<item>
+		<title>Nuestro Amanecer</title>
+		<artist>La Otra Eskina</artist>
+		<path>music/songs/La_Otra_Eskina__Nuestro_amanecer_VG.mp3</path>
+	</item>
+</playlist>

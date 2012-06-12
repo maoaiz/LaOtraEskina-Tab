@@ -1,0 +1,176 @@
+/* root element for scrollable */
+.todo{/*
+border:solid thin gray;*/
+padding:2px 0 2px 6px;
+width:362px;
+-moz-border-radius: 10px; /* Firefox*/
+-ms-border-radius: 10px; /* IE 8.*/
+-webkit-border-radius: 10px; /* Safari,Chrome.*/
+border-radius: 10px; /* El estándar.*/
+}
+.vertical {
+	
+	/* required settings */
+	position:relative;
+	overflow:hidden;
+
+	filter:alpha(opacity=95);
+	-moz-opacity:.95;
+	opacity:.95;
+
+	/* vertical scrollers have typically larger height than width */	
+	height: 229px;
+	width: 355px;/*
+	border-top:1px solid #ddd;*/
+	border-bottom:1px solid #ddd;/*
+	border:1px solid #ddf;*/
+}
+
+/* root element for scrollable items */
+.itemsv {	
+	position:absolute;
+	
+	/* this time we have very large space for height */	
+	height:20000em;	
+	margin: 2px;
+}
+
+/* single scrollable item */
+.itemv {
+	border:1px solid #9C9C9C;
+	width:350px;
+	margin:0 0px 5px 0px;
+	font-size:12px;
+	padding:0px;
+	-moz-border-radius: 8px; /* Firefox*/
+	-ms-border-radius: 8px; /* IE 8.*/
+	-webkit-border-radius: 8px; /* Safari,Chrome.*/
+	border-radius: 8px; /* El estándar.*/
+}
+.itemv .c{
+	padding:5px;
+	height:40px;
+	background-color:#B40404;/*am EECF1C*/
+	-moz-border-radius: 6px; /* Firefox*/
+	-ms-border-radius: 6px; /* IE 8.*/
+	-webkit-border-radius: 6px; /* Safari,Chrome.*/
+	border-radius: 6px; /* El estándar.*/
+
+	filter:alpha(opacity=90);
+	-moz-opacity:.90;
+	opacity:.90;
+}
+/* elements inside single item */
+.itemv img {/*
+	float:left;
+	margin-right:20px;
+	height:40px;
+	width:16px;*/
+	filter:alpha(opacity=90);
+	-moz-opacity:.90;
+	opacity:.90;
+}
+
+.itemv h3 {
+	margin:0 0 5px 0;
+	font-size:14px;
+	color:#456;
+	font-weight:normal;
+}
+.itemv .c .cancion,.itemv .c .cancion:link,.itemv .c .cancion:visited{
+	color:white;
+	font-size:14px;
+}
+.itemv .c a,.itemv .c a:visited,.itemv .c a:link{
+	color:#D8D8D8;
+	font-weight:bold;
+	text-shadow: #610B0B 2px 2px 3px;
+}
+.itemv .c .opc{
+	padding:2px;
+	text-align:center;
+	float:right;
+	}
+.letra{/*
+background: url(http://mauricioaizaga.com/LaOtraEskina/img/letra.png) 0 0 no-repeat;*/
+}
+.descarga{/*
+background: url(http://mauricioaizaga.com/LaOtraEskina/img/download.png) 0 0 no-repeat;*/
+}
+.miframe{
+float:right;
+}
+
+/* the action buttons above the scrollable */
+.actionsv {
+	width:360px;
+	margin:0px 0 0px 0;/*
+	border:solid thin red;*/
+}
+
+.actionsv a {
+	font-size:11px;		
+	cursor:pointer;
+	color:#666;
+	font-weight:bold;
+}
+
+.actionsv a:hover {
+	text-decoration:none;
+	color:#fff;
+}
+
+.disabled {
+	visibility:hidden;
+}
+
+.next {
+	display:block;
+	height:32px;/*
+	background: url(http://mauricioaizaga.com/LaOtraEskina/img/flecha-down.png) 0 0 no-repeat;*/
+	text-align:center;
+}
+.prev {
+	display:block;
+	height:32px;/*
+	background: url(http://mauricioaizaga.com/LaOtraEskina/img/flecha-up.png) 0 0 no-repeat;*/
+	text-align:center;
+}
+
+.reprod{
+width:130px;
+height:20px;
+}
+
+
+/* Tooltip */
+
+#tooltip {
+	position:absolute;
+	z-index:9999;
+	color:#fff;
+	font-size:10px;
+	width:180px;
+	
+}
+
+#tooltip .tipHeader {/*
+	height:8px;
+	background:url(../js/images/tipHeader.gif) no-repeat;*/
+}
+
+
+#tooltip .tipBody {
+	background-color:#fff;
+	padding:5px 5px 5px 15px;
+	color:#000;
+	-moz-border-radius: 5px; /* Firefox*/
+	-ms-border-radius: 5px; /* IE 8.*/
+	-webkit-border-radius: 5px; /* Safari,Chrome.*/
+	border-radius: 5px; /* El estándar.*/
+}
+
+#tooltip .tipFooter {/*
+	height:8px;
+	background:url(../js/images/tipFooter.gif) no-repeat;*/
+}
