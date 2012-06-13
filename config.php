@@ -37,7 +37,7 @@ $videos = array(//Estos son videos alojados en YouTube, el code corresponde a la
 );
 
 $canciones = array(
-	array ("num"=>"0","nombre"=>"Solo y Perdido <span style='color:yellow;font-size:10px'>Nueva</span>","album"=>"La Otra Eskina","href"=>"music/songs/La_Otra_Eskina__Solo_y_Perdido.mp3"),
+	array ("num"=>"0","nombre"=>"Solo y Perdido","album"=>"La Otra Eskina","href"=>"music/songs/La_Otra_Eskina__Solo_y_Perdido.mp3"),
 	array ("num"=>"1","nombre"=>"Contigo","album"=>"La Otra Eskina","href"=>"music/songs/La_Otra_Eskina__Contigo.mp3"),
 	array ("num"=>"2","nombre"=>"Miedos","album"=>"Miedos","href"=>"music/songs/La_Otra_Eskina__Miedos.mp3"),
 	array ("num"=>"3","nombre"=>"La Pena","album"=>"Miedos","href"=>"music/songs/La_Otra_Eskina__La_Pena.mp3"),
@@ -57,7 +57,7 @@ $letras = array(
 esperala Pronto!"),
 	array ("num"=>"1","nombre"=>"Contigo","letra"=>"
 ANOCHE SOÑE CONTIGO
-Y DORMI MEJOR
+Y DORMI MEJOR...
 EMPAQUE EN UNA CAJITA
 TODOS TUS BESOS
 
