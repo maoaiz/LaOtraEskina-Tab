@@ -1,7 +1,13 @@
 <?php
+/***
+*	Repositorio mantenido por @MaoAiz
+*	Un producto MauricioAizaga.com
+*
+*/
+
 //$url = "http://mauricioaizaga.com/LaOtraEskina/";/*Cambiar este link dependiendo del servidor en que se encuentre alojado*/
 $url = "http://laotraeskinatab.herokuapp.com/";/*Cambiar este link dependiendo del servidor en que se encuentre alojado*/
-
+echo "File Config of $url";
 //$url="";
 $titulo = "La Otra Eskina &gt; ".$musico;
 $page="http://www.facebook.com/LaOtraEskinaPereira?sk=app_161408067264807";
