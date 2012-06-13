@@ -21,7 +21,7 @@ $titulo="La Otra Eskina tambień esta en Facebook";
 			<div style="position:absolute;top:348px;margin-left:160px;width:200px;height:60px;overflow:hidden"><!-- -->
 				<div id="player-holder"></div>
 			</div>
-			<div class="poweredby">Diseñado por <a href="http://mauricioaizaga.com" target="_blank">MauricioAizaga.com</a></div>
+			<div class="poweredby">Desarrollado por <a href="http://mauricioaizaga.com" target="_blank">MauricioAizaga.com</a></div>
 			<div style="position:absolute;top:280px;margin-left:145px;width:200px;">
 				<a href="<?=$url?>musica.php"><img width="190px" src="<?=$url?>img/descarga.png" /></a>
 			</div>
@@ -63,7 +63,7 @@ $titulo="La Otra Eskina tambień esta en Facebook";
 				<!---->
 		</div><!--
 		<fb:like href="<?=$page?>" send="true" layout="standard" width="500" show_faces="false" font=""></fb:like>-->
-	<fb:comments href="<?=$url?>" num_posts="10" width="500"></fb:comments>
+	<fb:comments href="http://mauricioaizaga.com/LaOtraEskina" num_posts="8" width="500"></fb:comments>
 	</div><!-- //main -->
 	<script type="text/javascript">//music/originalmultiple/playlist.xml
 		var options = {};
