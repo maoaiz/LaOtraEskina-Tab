@@ -75,7 +75,7 @@ include_once "config.php";
 		<div class="comentario"><!--
 			<fb:like href="<?=$page?>"
 			send="true" layout="standard" width="500" show_faces="false" font=""></fb:like>-->
-			<fb:comments href="<?=$url?>/imagenes.php" num_posts="10" width="500"></fb:comments>
+			<fb:comments href="<?=$url2?>/imagenes.php" num_posts="10" width="500"></fb:comments>
 		</div>
 	</div><!-- //main -->
 	</body>

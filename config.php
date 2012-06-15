@@ -5,7 +5,7 @@
 *
 */
 
-//$url = "http://mauricioaizaga.com/LaOtraEskina/";/*Cambiar este link dependiendo del servidor en que se encuentre alojado*/
+$url2 = "http://mauricioaizaga.com/LaOtraEskina/";/*Cambiar este link dependiendo del servidor en que se encuentre alojado*/
 $url = "http://laotraeskinatab.herokuapp.com/";/*Cambiar este link dependiendo del servidor en que se encuentre alojado*/
 echo "File Config of $url";
 //$url="";

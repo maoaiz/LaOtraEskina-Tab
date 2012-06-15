@@ -63,7 +63,7 @@ $titulo="La Otra Eskina tambień esta en Facebook";
 				<!---->
 		</div><!--
 		<fb:like href="<?=$page?>" send="true" layout="standard" width="500" show_faces="false" font=""></fb:like>-->
-	<fb:comments href="http://mauricioaizaga.com/LaOtraEskina" num_posts="8" width="500"></fb:comments>
+	<fb:comments href="<?=$url2?>" num_posts="8" width="500"></fb:comments>
 	</div><!-- //main -->
 	<script type="text/javascript">//music/originalmultiple/playlist.xml
 		var options = {};
