@@ -25,11 +25,9 @@ background: url(http://a5.sphotos.ak.fbcdn.net/hphotos-ak-snc6/281296_2380431595
 background: url(http://a2.sphotos.ak.fbcdn.net/hphotos-ak-snc6/268186_238087109549025_237090246315378_862981_2409733_n.jpg) no-repeat 0 0 #FFF;
 background: url(http://a1.sphotos.ak.fbcdn.net/hphotos-ak-ash4/283398_238094016215001_237090246315378_862991_844263_n.jpg) no-repeat 0 0 #FFF;
 background: url(http://a6.sphotos.ak.fbcdn.net/hphotos-ak-snc7/313089_171457096277719_134012480022181_339980_62815267_n.jpg) no-repeat 0 0 #FFF;*/
-background: url(http://a5.sphotos.ak.fbcdn.net/hphotos-ak-ash4/380943_175943682495727_134012480022181_353758_437695141_n.jpg) no-repeat 0 0 #FFF;
-
-
-
-
+/*background: url(http://a5.sphotos.ak.fbcdn.net/hphotos-ak-ash4/380943_175943682495727_134012480022181_353758_437695141_n.jpg) no-repeat 0 0 #FFF;*/
+/*background: url(http://sphotos-e.ak.fbcdn.net/hphotos-ak-ash4/380943_175943682495727_437695141_n.jpg) no-repeat 0 0 #FFF;*/
+background: url(../img/backgrounds/home.jpg) no-repeat 0 0 #FFF;
 }
 .contact{
 background: url(http://mauricioaizaga.com/LaOtraEskina/img/backgrounds/5.png) no-repeat 0 0 #FFF;
@@ -114,7 +112,8 @@ background: url(http://mauricioaizaga.com/LaOtraEskina/img/marco.png) 0 0 no-rep
 .contenido .slider a.left { margin: 25px 5px 0 0 }
 a.contenido { visibility:hidden !important; }
 
-
+.download{position:absolute;top:270px;left:0;right:0;margin-left:auto;margin-right:auto;width:213px;height: 79px;
+background-image: url(http://laotraeskinatab.herokuapp.com/img/descarga.png)}
 
 
 

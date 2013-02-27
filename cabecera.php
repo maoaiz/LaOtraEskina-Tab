@@ -24,8 +24,8 @@
 		
 		<title><?=$titulo?> </title>
 		
-		<link type="text/css" rel="stylesheet" media="screen" href="<?=$url?>css/mystyle.css"  />
-		<link type="text/css" rel="stylesheet" media="screen" href="<?=$url?>css/home.css"  />
+		<link type="text/css" rel="stylesheet" media="screen" href="css/mystyle.css"  />
+		<link type="text/css" rel="stylesheet" media="screen" href="css/home.css"  />
 		
 		<script type="text/javascript" src="https://apis.google.com/js/plusone.js">{lang: 'es-419'}</script><!--
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>-->

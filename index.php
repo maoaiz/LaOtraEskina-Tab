@@ -22,9 +22,10 @@ $titulo="La Otra Eskina tambień esta en Facebook";
 				<div id="player-holder"></div>
 			</div>
 			<div class="poweredby">Desarrollado por <a href="http://mauricioaizaga.com" target="_blank">MauricioAizaga.com</a></div>
-			<div style="position:absolute;top:280px;margin-left:145px;width:200px;">
-				<a href="<?=$url?>musica.php"><img width="190px" src="<?=$url?>img/descarga.png" /></a>
-			</div>
+			<a href="<?=$url?>musica.php">
+				<div class="download">
+				</div>
+			</a>
 				<div class="slide" style="margin-top:325px">
 					<a class="prev left"></a>
 					<div class="scrollable">
